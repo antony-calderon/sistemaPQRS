@@ -428,7 +428,7 @@ public class FramePQRS extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Modified");
                 cleanBoxes();
             }else{
-                JOptionPane.showMessageDialog(null, "Error modifying");
+                JOptionPane.showMessageDialog(null, "Error when modifying, please do not change the code.");
                 cleanBoxes();
             }
             con.close();
